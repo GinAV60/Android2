@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blanchedalmond"
+    android:background="@drawable/silleta"
     tools:context=".Home">
 
     <TextView
@@ -15,11 +15,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.7"
-        android:text="SONSON ANTIOQUIA"
+        app:layout_constraintVertical_bias="1"
+        android:text="Santa Fé de antioquia "
         android:textAlignment="center"
-        android:textSize="24dp"
-        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textColor="@color/white"
         android:textStyle="bold"/>
 
 
@@ -79,40 +79,36 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:src="@drawable/town1"
+        android:src="@drawable/puebloxx2"
         app:layout_constraintVertical_bias="0.1"/>
 
-    <ImageView
-        android:id="@+id/silueta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/logo"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:src="@drawable/pajaros"
-        app:layout_constraintVertical_bias="1"/>
+
 
     <ImageView
         android:id="@+id/montañas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/monte"
-        app:layout_constraintBottom_toBottomOf="@id/silueta"
+        android:src="@drawable/puebloxx"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.69" />
+        app:layout_constraintVertical_bias="0.8" />
 
     <Button
-        android:id="@+id/botonmenu"
+        android:id="@+id/botonacercade"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Menu"
-        app:layout_constraintBottom_toTopOf="@+id/logo"
+        android:background="#95a532"
+        android:text="Acerca de mí"
+        android:textColor="#311B92"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0."
+        app:layout_constraintVertical_bias="0.02"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

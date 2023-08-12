@@ -26,11 +26,11 @@ public class ListaHoteles extends AppCompatActivity {
         recyclerHoteles.setAdapter(adaptador);
     }
     public void crearlista(){
-        listaHoteles.add(new MoldeHotel("250000",R.drawable.hotel2,"Hotel el comodo"));
-        listaHoteles.add(new MoldeHotel("350000",R.drawable.hotel4,"Hotel nueva vida"));
-        listaHoteles.add(new MoldeHotel("450000",R.drawable.hoteles3,"Hotel el tesoro de Sonson"));
-        listaHoteles.add(new MoldeHotel("550000",R.drawable.hotel5,"Hotel el hotelsito mañanero"));
-        listaHoteles.add(new MoldeHotel("650000",R.drawable.hotel1,"Hotel somos el mejor hotel"));
+        listaHoteles.add(new MoldeHotel("250000",R.drawable.xxhotel4,"Hotel el san martin campestre"));
+        listaHoteles.add(new MoldeHotel("350000",R.drawable.xxhotel3,"Hotel el nuevo hotel de tu vida"));
+        listaHoteles.add(new MoldeHotel("450000",R.drawable.xxhotel2,"Hotel nuevo hotel de santa fe"));
+        listaHoteles.add(new MoldeHotel("550000",R.drawable.hotel5,"Hotel el hotelsito de Samta fé"));
+        listaHoteles.add(new MoldeHotel("650000",R.drawable.xxhotel1,"Hotel somos el mejor hotel los otros son copia"));
 
     }
 }

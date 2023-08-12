@@ -26,11 +26,11 @@ public class ListaSitios extends AppCompatActivity {
         recyclerSitios.setAdapter(adaptador);
     }
     public void crearlista(){
-        listaSitios.add(new MoldeSitios("Gratis",R.drawable.iglesia,"Iglesia de Nuestra Señora de Chiquinquirá"));
+        listaSitios.add(new MoldeSitios("20000",R.drawable.kanaloaparqueacuatico,"Kanola parque acuatico"));
         listaSitios.add(new MoldeSitios("Gratis",R.drawable.cascada,"Cascada El Chorro:"));
-        listaSitios.add(new MoldeSitios("Gratis",R.drawable.samana,"Reserva Natural Cañón del Río Samaná"));
-        listaSitios.add(new MoldeSitios("Gratis",R.drawable.parquedesonson,"Parque Principal de Sonson:"));
-        listaSitios.add(new MoldeSitios("Gratis",R.drawable.miradorparamodesonson,"Mirador El Calvario"));
+        listaSitios.add(new MoldeSitios("Gratis",R.drawable.puentedeloccidente,"Puente del occidente"));
+        listaSitios.add(new MoldeSitios("Gratis",R.drawable.templosreligiosos,"Templos Religiosos"));
+        listaSitios.add(new MoldeSitios("Gratis",R.drawable.plazasimonbolivar,"Plaza simon bolivar"));
 
     }
 
